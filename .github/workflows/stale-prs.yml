@@ -4,8 +4,6 @@ on:
   pull_request:
     paths:
       - ".github/workflows/stale-prs.yml"
-  schedule:
-    - cron: "17 3 * * *"
   workflow_dispatch:
 
 permissions:
